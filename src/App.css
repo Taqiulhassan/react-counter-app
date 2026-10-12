@@ -1,0 +1,172 @@
+/* .app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #faf9fa;
+  border-radius: 8px;
+  padding: 3rem;
+  margin-top: 6rem;
+}
+.heading_text {
+  font-size: 15px !important;
+  font-weight: 400;
+}
+.heading_two {
+  padding-top: 5px;
+}
+.total_amount_card {
+  height: 537px;
+  background-color: #d6ff58;
+  border-radius: 27px;
+}
+
+.right {
+  float: right;
+  margin-top: -2rem;
+}
+.card_text {
+  padding-top: 40px;
+}
+.total_amount_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 800;
+  padding-top: 10rem;
+}
+.total_amount_para {
+  text-align: center;
+  font-size: 18px !important;
+  padding-top: 5px;
+  color: #4b4b4b;
+}
+.input_area {
+  margin-top: 40px;
+}
+
+.input_field {
+  margin-top: 30px;
+  width: 445px;
+}
+#outlined-basic {
+  width: 410px;
+}
+
+.button_collection {
+  margin-top: 61px;
+  margin-bottom: 1rem;
+}
+.btn_one {
+  background-color: #f2f2f2 !important;
+  width: 200px;
+  height: 75px;
+  color: black !important;
+  font-weight: 600;
+  font-size: 20px !important;
+}
+
+.btn_two {
+  background-color: #f2f2f2 !important;
+  width: 200px;
+  height: 75px;
+  color: black !important;
+  font-size: 20px !important;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1eeee;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  width: 260px;
+  background-color: #ffffff;
+  padding: 20px 16px 40px;
+  border-radius: 12px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.06);
+}
+
+.total_amount_card {
+  height: 280px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #eaff55, #ffdc68, #ffe64f);
+
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reset_button {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  color: #333333;
+}
+
+.card_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.total_amount_heading {
+  font-size: 52px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.button_collection {
+  margin-top: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.counter_btn.MuiButton-root {
+  min-width: 56px;
+  width: 56px;
+  height: 60px;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #222222;
+  box-shadow: none;
+  border-radius: 9px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.counter_btn.MuiButton-root:hover {
+  background-color: #e5e5e5;
+  box-shadow: none;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+    max-width: 260px;
+  }
+}
